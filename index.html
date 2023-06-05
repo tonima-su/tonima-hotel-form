@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<title>Dream Hotel Booking Form</title>
+<head>
+    <h1>WELCOME TO OUR DREAM HOTEL</h1>
+
+</head>
+
+
+<body style="padding-bottom: 300px;">
+
+    <form method="get">
+    <fieldset>
+        <legend>Personal Info</legend>
+   <div> <!--input type text-->
+    <label for="name"><h3>Your Name</h3></label>
+    <P><input id="name" type="text"/></P>
+   </div>
+
+   <div> <!--input type email-->
+    <p><label for="email"><h3>Email</h3></label></p>
+    <input type="email"/>
+
+   </div>
+
+   <div> <!--input type number-->
+    <label for="number"><h3>Your Age</h3></label>
+    <input id="age" type="number"/>
+
+   </div>
+
+   <div> <!--input type gender-->
+    <p><h3>Your Gender</h3></p>
+    <input  type="radio" id="male" value="male" name="gender"/>
+    <label for="male">Male</label>
+    <br>
+    <input  type="radio" id="female" value="female" name="gender"/>
+    <label for="female">Female</label>
+    
+   </div>
+    <div> <!--input type tel-->
+
+        <p><label for="phone">Phone Number</label></p>
+        <input id="phone" type="tel"/>
+        
+    </div>
+   
+
+</fieldset>
+<fieldset> <!--input type radio-->
+    <legend>Hotel Details</legend>
+
+    <div>
+<p><h3>Room</h3></p>
+<input id="1" type="radio" name="room" value="1"/>
+<label for="room">1</label><br>
+
+<input id="2" type="radio" name="room" value="2"/>
+<label for="room">2</label><br>
+
+<input id="3" type="radio" name="room" value="3"/>
+<label for="room">3</label><br>
+<input id="duplex" type="radio" name="room" value="duplex"/>
+<label for="room">Duplex</label><br>
+    
+    </div>
+<br>
+
+    <div> <!--input type date-->
+    
+        <label for="day"><h3>Cheak-In Day</h3></label>
+        <input id="day" type="date"/>
+        
+    
+    </div>
+    <div> <!--input type date-->
+    
+        <label for="day"><h3>Cheak-Out Day</h3></label>
+        <input id="day" type="date"/>
+        
+    
+    </div>
+    
+</fieldset>
+            <input type="submit" value="Submit">
+        
+        </form>
+
+</body>
+</html>
